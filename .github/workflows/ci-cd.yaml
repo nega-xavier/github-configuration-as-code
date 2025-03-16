@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'config-as-code/**'
   pull_request:
-    branches:
-      - main
+    paths:
+      - 'config-as-code/**'
 
 env:
   tf_actions_working_dir: config-as-code

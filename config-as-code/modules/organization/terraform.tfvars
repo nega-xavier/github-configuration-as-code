@@ -1,10 +1,18 @@
 organization_projects = [
   {
-    name        = "Infrastructure Management"
-    description = "Managing Infrastructure as Code for GitHub."
+    name        = "Planet Express"
+    description = "Delivering intergalactic solutions with style and humor."
   },
   {
-    name        = "Developer Experience"
-    description = "Projects aimed at enhancing developer productivity."
+    name        = "Farnsworth Labs"
+    description = "Pioneering futuristic research driven by unconventional genius."
+  },
+  {
+    name        = "Bender Industries"
+    description = "Automating processes with a twist of bending reality (and metal)."
+  },
+  {
+    name        = "Leela's Command"
+    description = "Navigating complex challenges with precision and leadership."
   }
 ]
