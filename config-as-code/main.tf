@@ -18,7 +18,7 @@ provider "github" {
 module "github_organization" {
   source = "./modules/organization"
 
-  name = var.organization_name
+  name          = var.organization_name
   billing_email = var.billing_email
 
   # ruleset_enforcement = "active"

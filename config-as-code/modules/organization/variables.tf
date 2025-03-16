@@ -65,7 +65,7 @@ variable "ruleset_name" {
 variable "ruleset_enforcement" {
   type        = string
   description = "Enforcement level of ruleset (active, evaluate)"
-  default = "active"
+  default     = "active"
 }
 
 variable "required_review_count" {

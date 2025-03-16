@@ -48,6 +48,6 @@ resource "github_organization_ruleset" "default_ruleset" {
 resource "github_organization_project" "project" {
   count = length(var.organization_projects)
 
-  name        = var.organization_projects[count.index].name
-  body        = try(var.organization_projects[count.index].body, "")
+  name = var.organization_projects[count.index].name
+  body = try(var.organization_projects[count.index].body, "")
 }
