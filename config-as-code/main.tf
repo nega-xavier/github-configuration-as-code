@@ -12,7 +12,7 @@ terraform {
 }
 
 provider "github" {
-  owner = "abyssinia-io"
+  owner = var.organization_name
 }
 
 module "github_organization" {
