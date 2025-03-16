@@ -14,3 +14,12 @@ terraform {
 provider "github" {
   owner = "abyssinia-io"
 }
+
+module "github_organization" {
+  source = "./modules/organization"
+
+  name = var.organization_name
+  billing_email = var.billing_email
+
+  # ruleset_enforcement = "active"
+}
